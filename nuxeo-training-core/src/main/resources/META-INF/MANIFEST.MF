@@ -1,0 +1,14 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: org.acornaglia.training
+Bundle-Version: 1.0.0
+Bundle-Name: acornaglia-core
+Bundle-ManifestVersion: 2
+Nuxeo-WebModule: training.restAPI.RestAPIModule;name=productApplicationRoot
+Bundle-SymbolicName: org.acornaglia.training.acornaglia-core;singleton=true
+Nuxeo-Component: OSGI-INF/priceupdater-operation-contrib.xml,
+ OSGI-INF/returnprice-service.xml
+Import-Package: org.nuxeo.runtime,
+ org.nuxeo.ecm.core,
+ org.nuxeo.ecm.automation

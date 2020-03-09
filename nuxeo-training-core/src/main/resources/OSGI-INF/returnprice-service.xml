@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<component name="training.service.ReturnPrice" version="1.0">
+
+  <implementation class="training.service.ReturnPriceImpl" />
+
+  <service>
+    <provide interface="training.service.ReturnPrice" />
+  </service>
+</component>
